@@ -1,0 +1,56 @@
+.wp-media-buttons .gwa-button .gwa-button-icon:before
+{
+    font: 400 18px/1 dashicons;
+
+    content: '\f111';
+    vertical-align: text-top;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+.gwa-modal #TB_window .gwa-submit
+{
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+
+    color: #fff;
+}
+.gwa-modal #TB_ajaxContent
+{
+    height: 100%!important;
+    padding: 0;
+}
+.gwa-select-wrapper,
+.gwa-attr-wrapper
+{
+    display: inline-block;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    max-height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    vertical-align: top;
+}
+.gwa-attr-wrapper
+{
+    margin: 0;
+}
+.gwa-attr-wrapper ul
+{
+    margin: 0;
+}
+.gwa-attr,
+#gwa-popup
+{
+    display: none;
+}
+.gwa-attr-show
+{
+    display: block;
+}
